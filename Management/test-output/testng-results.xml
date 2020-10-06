@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127850" started-at="2020-09-18T00:00:54 PDT" finished-at="2020-09-18T00:03:02 PDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="127850" started-at="2020-09-18T00:00:54 PDT" finished-at="2020-09-18T00:03:02 PDT">
+      <class name="Testrunner.Testrunne">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Testrunner.Testrunne@7403c468]" name="setUpClass" is-config="true" duration-ms="508" started-at="2020-09-18T00:00:54 PDT" finished-at="2020-09-18T00:00:54 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="18520" started-at="2020-09-18T00:00:54 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:01:13 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login in Application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Functional Testing For BillManagement Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="32730" started-at="2020-09-18T00:01:13 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:01:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scan and upload of bills"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Functional Testing For BillManagement Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="16906" started-at="2020-09-18T00:01:46 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:02:03 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["UploadBill Edit For Correction"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Functional Testing For BillManagement Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="10585" started-at="2020-09-18T00:02:03 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:02:13 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filling up the details of Bills/Invoice"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Functional Testing For BillManagement Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="18016" started-at="2020-09-18T00:02:13 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:02:31 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Actions in the bills/Invoice"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Functional Testing For BillManagement Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="1978" started-at="2020-09-18T00:02:31 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:02:33 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View of User Home"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Function testing for user homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="28432" started-at="2020-09-18T00:02:33 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:03:02 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Actions in User Home"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Function testing for user homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="17" started-at="2020-09-18T00:03:02 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:03:02 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Resubmission of Rejected Bills/Invoices"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Function testing for user homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Testrunner.Testrunne@7403c468]" name="runScenario" duration-ms="15" started-at="2020-09-18T00:03:02 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:03:02 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Upload of bills from homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test Function testing for user homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Testrunner.Testrunne@7403c468]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-09-18T00:03:02 PDT" finished-at="2020-09-18T00:03:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Testrunner.Testrunne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
